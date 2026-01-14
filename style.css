@@ -1,17 +1,29 @@
 body {
     font-family: 'Inter', sans-serif;
+    background-color: #FFF7F9;
 }
 h1, h2, h3 .banner-heading .banner-launch-date .countdown-heading
     .email-early-access .social-proof-title {
         font-family: 'Playfair Display', serif;
 }
+.hero-section {
+    background: url('https://drive.google.com/thumbnail?id=1TarhWNT3A8h6s-ev8AxgBTn5lYmB_doI&sz=w1200') ;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    max-width: auto;
+    height: 500px;
+    padding: 32px;
+}
 /*fixing this navbar scrolling effect later*/
 .nav-bar {
     display: flex;
+    position: relative;
     align-items: center;
     justify-content: center;
     max-width: auto;
     height: 100px;
+    margin-top: 0;
 }
 .nav-logo img {
     max-height: 100%;
@@ -27,16 +39,50 @@ h1, h2, h3 .banner-heading .banner-launch-date .countdown-heading
 #navbar-logo.show {
     top: 0;
 }*/
-.banner-container {
-   
+.banner-overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(255, 247, 249, 0.25);
 }
-.banner-image {
-    display: flex;
+.banner-text {
     align-items: center;
     justify-content: center;
-    background-size: fit;
+    position: relative;
+    text-align: center;
 }
-.banner-image img {
-    max-width: 100%;
-    height: auto;
+.banner-heading {
+    font-weight: 700;
+    font-size: 64px;
+    color: #2A2A2A;
 }
+.banner-subheading {
+    font-weight: 400;
+    font-size: 18px;
+    color: #2A2A2A;
+}
+.banner-launch-date {
+    color: #3b2a24;
+    font-weight: 600;
+    font-size: 28px;
+    font-style: italic;
+}
+.banner-microtext {
+    color: #3b2a24;
+    font-weight: 400;
+    font-size: 13px;
+}
+.banner-text button {
+    background: #9e4a5a;
+    color: #ffffff;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 14px 28px;
+    border-radius: 999px;
+    cursor: pointer;
+}
+.banner-text button:hover {
+    background: #843947;
+    transition-duration: 0.3s;
+}
+
