@@ -1,0 +1,35 @@
+body {
+    font-family: 'Inter', sans-serif;
+}
+h1, h2, h3 .banner-heading .banner-launch-date .countdown-heading
+    .email-early-access .social-proof-title {
+        font-family: 'Playfair Display', serif;
+}
+.nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: auto;
+    height: 100px;
+}
+.nav-logo img {
+    max-height: 100%;
+}
+#navbar-logo {
+    padding: 16px 24px;
+    position: fixed;
+    top: -50%;
+    width: 100%;
+    transition: top 0.3s;
+}
+#navbar-logo.show {
+    top: 0;
+}
+.banner-container {
+    background-color: #FFF7F9;
+}
+.banner-text {
+    color: #2B2B2B;
+    text-align: center;
+
+}
