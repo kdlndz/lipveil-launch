@@ -2,8 +2,8 @@ body {
     font-family: 'Inter', sans-serif;
     background-color: #FFF7F9;
 }
-h1, h2, h3 .banner-heading .banner-launch-date .countdown-heading
-    .email-early-access .social-proof-title {
+h1, h2, h3, .banner-heading, .banner-launch-date, .countdown-heading,
+    .email-early-access, .social-proof-title {
         font-family: 'Playfair Display', serif;
 }
 .hero-section {
@@ -139,9 +139,53 @@ h1, h2, h3 .banner-heading .banner-launch-date .countdown-heading
     color: #3B2A24;
 }
 .email-reg-container {
+    background-color: #ffffff;
+    justify-content: center;
+    align-items: center;
     padding: 20px;
 }
-.email.reg-section {
-    
+.email-reg-section {
+    display: flex;
+    justify-content: center;
+    color: #7A1F2B;
+    margin: 8px;
 }
+.email-early-access {
+    font-weight: 600;
+    font-size: 40px;
+}
+.email-helper-text {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+.email-address {
+    background-color: #ffffff;
+    padding: 14px 16px;
+    margin: 4px 8px;
+    border: 1px solid #F1D6DC;
+    border-radius: 12px;
+}
+/*input field CTA to fix*/
+/*input:focus {
+    border: #C27A8A;
+}
+input:invalid {
+    border: #C94A4A;
+    outline: none;
+}*/
+.email-reg-button {
+    background-color: #9E4A5A;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    color: #ffffff;
+    padding: 14px 28px;
+    border-radius: 999px;
+    cursor: pointer;
+}
+.email-reg-button:hover {
+    background-color: #843947;
+    transition-duration: 0.3s;
+}
+
 
