@@ -91,7 +91,6 @@ h1, h2, h3, .banner-heading, .banner-launch-date, .countdown-heading,
     height: 100%;
     margin: 0;
     text-align: center;
-    background: #E6A8B7;
     padding: 20px;
     box-shadow: 0 4px 8px rgba(0 0 0 0.1);
 }
@@ -105,7 +104,7 @@ h1, h2, h3, .banner-heading, .banner-launch-date, .countdown-heading,
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #FFF7F9;
+    background-color: #E6A8B7;
     padding: 15px;
     border-radius: 10px;
     width: 80px;
@@ -139,45 +138,51 @@ h1, h2, h3, .banner-heading, .banner-launch-date, .countdown-heading,
     color: #3B2A24;
 }
 .email-reg-container {
+    display: flex;
+    flex-wrap: wrap;
     background-color: #ffffff;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 2rem 4rem;
 }
 .email-reg-text {
-    display: flex;
-    justify-content: center;
     color: #7A1F2B;
-    margin: 8px;
+    margin: 16px 64px;
+    gap: 1rem;
 }
 .email-reg-text h2 {
     font-weight: 600;
     font-size: 40px;
+    margin: 0;
 }
 .email-reg-text p {
     font-weight: 400;
     font-size: 16px;
+    margin: 0.5 0 0;
 }
 .email-reg-form {
     display: flex;
     align-items: center;
     gap: 0.5rem;
+    margin: 16px 64px;
 }
 .email-reg-form input {
-    padding: 14px 16px;
+    padding: 14px 24px;
     margin: 4px 8px;
     border: 1px solid #F1D6DC;
     border-radius: 12px;
+    width: 240px;
+    box-sizing: border-box;
     outline: none;
 }
 /*input field CTA to fix*/
-/*input:focus {
-    border: #C27A8A;
-}
-input:invalid {
-    border: #C94A4A;
+.input:focus {
+    border-color: #C27A8A;
     outline: none;
-}*/
+}
+.input:error {
+    border: #C94A4A;
+}
 .email-reg-form button {
     background-color: #9E4A5A;
     font-family: 'Inter', sans-serif;
@@ -190,6 +195,17 @@ input:invalid {
 .email-reg-form button:hover {
     background-color: #843947;
     transition-duration: 0.3s;
+}
+.product-container {
+    align-items: center;
+    justify-content: center;
+    background-color: #FFF7F9;
+    padding: 20px;
+}
+.product-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 
