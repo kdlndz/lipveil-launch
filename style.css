@@ -144,27 +144,31 @@ h1, h2, h3, .banner-heading, .banner-launch-date, .countdown-heading,
     align-items: center;
     padding: 20px;
 }
-.email-reg-section {
+.email-reg-text {
     display: flex;
     justify-content: center;
     color: #7A1F2B;
     margin: 8px;
 }
-.email-early-access {
+.email-reg-text h2 {
     font-weight: 600;
     font-size: 40px;
 }
-.email-helper-text {
-    font-family: 'Inter', sans-serif;
+.email-reg-text p {
     font-weight: 400;
-    font-size: 18px;
+    font-size: 16px;
 }
-.email-address {
-    background-color: #ffffff;
+.email-reg-form {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+.email-reg-form input {
     padding: 14px 16px;
     margin: 4px 8px;
     border: 1px solid #F1D6DC;
     border-radius: 12px;
+    outline: none;
 }
 /*input field CTA to fix*/
 /*input:focus {
@@ -174,7 +178,7 @@ input:invalid {
     border: #C94A4A;
     outline: none;
 }*/
-.email-reg-button {
+.email-reg-form button {
     background-color: #9E4A5A;
     font-family: 'Inter', sans-serif;
     font-weight: 600;
@@ -183,7 +187,7 @@ input:invalid {
     border-radius: 999px;
     cursor: pointer;
 }
-.email-reg-button:hover {
+.email-reg-form button:hover {
     background-color: #843947;
     transition-duration: 0.3s;
 }
