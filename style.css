@@ -276,6 +276,22 @@ h1, h2, h3, .banner-heading, .banner-launch-date, .countdown-heading,
 .new-prod-twister:hover .twister-hover {
     opacity: 1;
 }
+.social-proof-container {
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 0;
+}
+.social-proof-section {
+    display: block;
+    justify-content: center;
+   text-align: center;
+   border-top: 1px solid #843947;
+   border-bottom: 1px solid #843947;
+}
+h2.social-proof-title {
 
+}
 
 
