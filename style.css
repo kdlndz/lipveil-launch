@@ -14,6 +14,7 @@ h1, h2, h3, .banner-heading, .banner-launch-date, .countdown-heading,
     max-width: auto;
     height: 500px;
     padding: 32px;
+    border-radius: 16px;
 }
 /*fixing this navbar scrolling effect later*/
 .nav-bar {
@@ -144,6 +145,7 @@ h1, h2, h3, .banner-heading, .banner-launch-date, .countdown-heading,
     justify-content: space-between;
     align-items: center;
     padding: 2rem 4rem;
+    border-radius: 16px;
 }
 .email-reg-text {
     color: #7A1F2B;
@@ -279,19 +281,37 @@ h1, h2, h3, .banner-heading, .banner-launch-date, .countdown-heading,
 .social-proof-container {
     align-items: center;
     justify-content: center;
+    text-align: center;
     background-color: #ffffff;
     padding: 20px;
-    margin: 0;
+    border-radius: 16px;
 }
 .social-proof-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    border-top: 1px solid #843947;
+    border-bottom: 1px solid #843947;
+    gap: 8px;
+}
+.social-proof-section img {
+    max-width: 100%;
+    height: 150px;
+}
+.social-proof-section p {
+    font-style: italic;
+}
+.footer-container {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 0 0 8px;
+}
+.footer-disclaimer p  {
     display: block;
     justify-content: center;
-   text-align: center;
-   border-top: 1px solid #843947;
-   border-bottom: 1px solid #843947;
+    align-items: center;
+    font-size: 12px;
 }
-h2.social-proof-title {
-
-}
-
-
