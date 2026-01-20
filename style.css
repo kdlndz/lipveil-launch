@@ -37,15 +37,21 @@ h1, h2, h3, .banner-heading, .banner-launch-date, .countdown-heading,
 .nav-bar {
     display: flex;
     position: relative;
+    z-index: 20;
     align-items: center;
     justify-content: center;
     max-width: auto;
     height: 100px;
     margin-top: 0;
 }
-.nav-logo img {
-    max-height: 100%;
+.nav-logo a {
+    display: inline-block;
 }
+.nav-logo img {
+    display: block;
+    cursor: pointer;
+}
+
 /*
 #navbar-logo {
     display: flex;
@@ -68,17 +74,18 @@ h1, h2, h3, .banner-heading, .banner-launch-date, .countdown-heading,
     position: relative;
     text-align: center;
 }
-.banner-heading {
+.banner-text h1 {
     font-weight: 700;
     font-size: 64px;
     color: #2A2A2A;
+    margin-bottom: 8px;
 }
-.banner-subheading {
+.banner-subheading-text {
     font-weight: 400;
     font-size: 18px;
     color: #2A2A2A;
 }
-.banner-launch-date {
+.banner-text h3 {
     color: #3b2a24;
     font-weight: 600;
     font-size: 28px;
