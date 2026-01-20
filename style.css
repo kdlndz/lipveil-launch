@@ -51,22 +51,11 @@ h1, h2, h3, .banner-heading, .banner-launch-date, .countdown-heading,
     display: block;
     cursor: pointer;
 }
-
-/*
-#navbar-logo {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    top: -50%;
-    transition: top 0.3s;
-}
-#navbar-logo.show {
-    top: 0;
-}*/
 .banner-overlay {
     position: absolute;
     inset: 0;
     background: rgba(255, 247, 249, 0.25);
+    pointer-events: none;
 }
 .banner-text {
     align-items: center;
