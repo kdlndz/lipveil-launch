@@ -1,6 +1,7 @@
 body {
     font-family: 'Inter', sans-serif;
     background-color: #FFF7F9;
+    margin: 0;
 }
 h1, h2, h3, .banner-heading, .banner-launch-date, .countdown-heading,
     .email-early-access, .social-proof-title {
@@ -13,8 +14,24 @@ h1, h2, h3, .banner-heading, .banner-launch-date, .countdown-heading,
     position: relative;
     max-width: auto;
     height: 500px;
-    padding: 32px;
     border-radius: 16px;
+}
+.top-bar {
+    background-color: #FFF7F9;
+    color: #9E4A5A;
+    overflow: hidden;
+    white-space: nowrap;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.04rem;
+    text-transform: uppercase;
+}
+.marquee-bar {
+    display: flex;
+    gap: 3rem;
+    padding: 10px 0;
+    animation: none;
+    justify-content: center;
 }
 /*fixing this navbar scrolling effect later*/
 .nav-bar {
@@ -291,14 +308,8 @@ h1, h2, h3, .banner-heading, .banner-launch-date, .countdown-heading,
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    text-align: center;
     border-top: 1px solid #843947;
     border-bottom: 1px solid #843947;
-    gap: 8px;
-}
-.social-proof-section img {
-    max-width: 100%;
-    height: 150px;
 }
 .social-proof-section p {
     font-style: italic;
@@ -309,9 +320,15 @@ h1, h2, h3, .banner-heading, .banner-launch-date, .countdown-heading,
     text-align: center;
     margin: 0 0 0 8px;
 }
-.footer-disclaimer p  {
+.footer-disclaimer p {
     display: block;
     justify-content: center;
     align-items: center;
     font-size: 12px;
+}
+.mock-label-one {
+    display: flex;
+    text-align: left;
+    justify-content: center;
+    margin: 24px;
 }
