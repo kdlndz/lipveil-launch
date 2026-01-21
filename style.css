@@ -210,10 +210,24 @@ h1, h2, h3, .banner-heading, .banner-launch-date, .countdown-heading,
 .email-helper {
     display: none;
     font-size: 12px;
-    color: #C94A4A;
     margin-top: 6px;
 }
-.email-input .input:invalid + .email-helper {
+.email-error {
+    color: #C94A4A;
+}
+.email-success {
+    color: #7A9A84;
+}
+.email-input .input:invalid {
+    border-color: #C94A4A;
+}
+.email-input .input:invalid + email-error {
+    display: block;
+}
+.email-input.success input {
+    border-color: #7A9A84;
+}
+.email-input.success .email-success {
     display: block;
 }
 .email-reg-form button {
