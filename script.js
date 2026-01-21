@@ -29,4 +29,15 @@ const countdownInterval = setInterval(function() {
         document.querySelector(".countdown-section").innerHTML = "<h2>The event has ended!</h2>";
     }
 }, 1000);
-//EMAIL REGISTRATION FOCUS AND ERROR STATE
+//EMAIL REGISTRATION POP-UP MESSAGE
+const form = document.getElementById("emailForm");
+const emailInput = document.querySelector(".email-input");
+
+form.addEventListener("submit", function (e) {
+    e.preventDefault();
+
+    if(form.checkVisibility()) {
+    emailInput.classList.add("success");
+    emailInput.classList.remove("error");
+    }
+});
