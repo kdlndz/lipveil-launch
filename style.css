@@ -55,7 +55,6 @@ h1, h2, h3, .banner-heading, .banner-launch-date, .countdown-heading,
     position: absolute;
     inset: 0;
     background: rgba(255, 247, 249, 0.25);
-    pointer-events: none;
 }
 .banner-text {
     align-items: center;
@@ -166,11 +165,13 @@ h1, h2, h3, .banner-heading, .banner-launch-date, .countdown-heading,
     gap: 1rem;
 }
 .email-reg-text h2 {
+    color: #7A1F2B;
     font-weight: 600;
     font-size: 40px;
     margin: 0;
 }
 .email-reg-text p {
+    color: #6F6F6F;
     font-weight: 400;
     font-size: 16px;
     margin: 0.5 0 0;
@@ -199,16 +200,17 @@ h1, h2, h3, .banner-heading, .banner-launch-date, .countdown-heading,
     border: #C94A4A;
 }
 .email-reg-form button {
-    background-color: #9E4A5A;
+    background-color: transparent;
     font-family: 'Inter', sans-serif;
     font-weight: 600;
-    color: #ffffff;
+    color: #9E4A5A;
     padding: 14px 28px;
     border-radius: 999px;
+    border: 1px solid #9E4A5A;
     cursor: pointer;
 }
 .email-reg-form button:hover {
-    background-color: #843947;
+    background-color: #FFF7F9;
     transition-duration: 0.3s;
 }
 .product-container {
